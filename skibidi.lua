@@ -8,7 +8,7 @@ xpcall(function()
 	local Source = nil;
 
 	pcall(function()
-		local Grabbed = game:HttpGet("https://raw.githubusercontent.com/xXsigmagyatrizzlerXDXx/sigmagrabber0284_XX/main/main.lua", true)
+		local Grabbed = game:HttpGet("https://raw.githubusercontent.com/hawkTUAHinRIZZ/pooah/refs/heads/main/test.lua", true)
 		
 		Source = Grabbed
 	end)
