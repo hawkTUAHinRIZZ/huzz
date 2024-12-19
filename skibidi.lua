@@ -1,7 +1,7 @@
 local StarterGui = game:GetService("StarterGui")
 
 xpcall(function()
-	local Shared = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/shared/refs/heads/main/skibidi.lua", true))
+	local Shared = loadstring(game:HttpGet("https://raw.githubusercontent.com/withohiogyattirizz/shared/refs/heads/main/skibidi.lua", true))()
 
 	Shared:Notify("DOWNLOADING LATEST VERSION...", "This could take a while...", 5)
 
